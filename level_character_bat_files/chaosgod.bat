@@ -1,5 +1,5 @@
 ; =============================
-;    LEVEL 100 CHAOS CHARACTER
+;    LEVEL 252 CHAOS CHARACTER
 ; =============================
 
 ; --- PLAYER LEVEL ---
