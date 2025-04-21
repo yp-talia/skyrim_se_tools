@@ -390,7 +390,7 @@ begin
     Rows.Clear;
     Rows.Free;
 
-    csvFileName := 'VO_Export_INFO_List_' + FormatDateTime('yyyy-mm-dd_HHNN', Now) + '.csv';
+    csvFileName := 'INFO_export.csv';
     Log(2, 'Saving CSV to ' + ProgramPath + csvFileName);
     // Save in local ANSI codepage
     outFile.SaveToFile(ProgramPath + csvFileName);

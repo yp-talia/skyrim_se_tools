@@ -388,7 +388,7 @@ begin
     Rows.Clear;
     Rows.Free;
 
-    csvFileName := 'VO_Export_NPC_List_' + FormatDateTime('yyyy-mm-dd_HHNN', Now) + '.csv';
+    csvFileName := 'NPC__export.csv';
     Log(2, 'Saving CSV to ' + ProgramPath + csvFileName);
     // Save in local ANSI codepage
     outFile.SaveToFile(ProgramPath + csvFileName);

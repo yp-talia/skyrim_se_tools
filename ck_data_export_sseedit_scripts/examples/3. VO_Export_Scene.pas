@@ -390,7 +390,7 @@ begin
     Rows.Clear;
     Rows.Free;
 
-    csvFileName := 'VO_Export_Scene_List_' + FormatDateTime('yyyy-mm-dd_HHNN', Now) + '.csv';
+    csvFileName := 'SCEN_export.csv';
     Log(2, 'Saving CSV to ' + ProgramPath + csvFileName);
     // Save in local ANSI codepage
     outFile.SaveToFile(ProgramPath + csvFileName);
